@@ -1,0 +1,101 @@
+{
+  "feasible": true,
+  "status": "FEASIBLE",
+  "placements": [
+    {
+      "name": "fridge",
+      "center": [
+        30931.3885,
+        33985.6321
+      ],
+      "rotation_deg": 270.0,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-1",
+      "center": [
+        29493.3885,
+        33175.632099999995
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-2",
+      "center": [
+        29493.3885,
+        32555.0295
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-3",
+      "center": [
+        30493.3885,
+        32200.0295
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-4",
+      "center": [
+        31096.3885,
+        32640.0295
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-1",
+      "center": [
+        29296.3885,
+        34770.0295
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-2",
+      "center": [
+        31296.3885,
+        32240.0295
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-3",
+      "center": [
+        31296.3885,
+        33040.029500000004
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    }
+  ],
+  "warnings": [],
+  "model": {
+    "fridge_front": "local -Y edge (length edge)",
+    "fridge_default_depth": "length / 2",
+    "door_access_depth": 700.0,
+    "all_items_same_floor": true
+  },
+  "stages": [
+    {
+      "candidate_count": 290,
+      "nodes": 9,
+      "search_timed_out": false,
+      "elapsed_seconds": 0.508,
+      "stage": "wall_only",
+      "step": 100
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "errors": []
+  },
+  "wall_count": 8,
+  "wall_count_optimal": true
+}

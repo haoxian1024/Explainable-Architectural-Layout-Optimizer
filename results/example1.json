@@ -1,0 +1,101 @@
+{
+  "feasible": true,
+  "status": "FEASIBLE",
+  "placements": [
+    {
+      "name": "iceMaker",
+      "center": [
+        6176.03441557022,
+        29167.212838112715
+      ],
+      "rotation_deg": 179.97462095513447,
+      "touches_wall": true
+    },
+    {
+      "name": "fridge",
+      "center": [
+        5612.191019593376,
+        30652.19023726855
+      ],
+      "rotation_deg": 105.851999397986,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-1",
+      "center": [
+        5541.016576285001,
+        32513.534759461534
+      ],
+      "rotation_deg": 15.852001319295056,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-2",
+      "center": [
+        4861.674462711005,
+        31592.961143411718
+      ],
+      "rotation_deg": 105.85199939798599,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-3",
+      "center": [
+        6796.067575838299,
+        29241.93820306986
+      ],
+      "rotation_deg": 89.97462095513445,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-1",
+      "center": [
+        4771.440194462969,
+        32295.01200883426
+      ],
+      "rotation_deg": 15.852001319295056,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-2",
+      "center": [
+        5417.268475479251,
+        29636.31322713762
+      ],
+      "rotation_deg": 105.85199939798599,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-3",
+      "center": [
+        6821.7357,
+        30041.7939
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    }
+  ],
+  "warnings": [],
+  "model": {
+    "fridge_front": "local -Y edge (length edge)",
+    "fridge_default_depth": "length / 2",
+    "door_access_depth": 1000.0,
+    "all_items_same_floor": true
+  },
+  "stages": [
+    {
+      "candidate_count": 562,
+      "nodes": 9,
+      "search_timed_out": false,
+      "elapsed_seconds": 3.583,
+      "stage": "wall_only",
+      "step": 100
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "errors": []
+  },
+  "wall_count": 8,
+  "wall_count_optimal": true
+}

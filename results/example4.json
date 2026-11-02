@@ -1,0 +1,85 @@
+{
+  "feasible": true,
+  "status": "FEASIBLE",
+  "placements": [
+    {
+      "name": "fridge",
+      "center": [
+        184163.5924,
+        31307.7231
+      ],
+      "rotation_deg": 180.0,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-1",
+      "center": [
+        183373.5924,
+        29742.7231
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "shelf-2",
+      "center": [
+        183873.5924,
+        30342.7231
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-1",
+      "center": [
+        184073.5924,
+        29842.7231
+      ],
+      "rotation_deg": 90.0,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-2",
+      "center": [
+        183563.11479999998,
+        32902.7231
+      ],
+      "rotation_deg": 0.0,
+      "touches_wall": true
+    },
+    {
+      "name": "overShelf-3",
+      "center": [
+        183073.5924,
+        32402.723100000003
+      ],
+      "rotation_deg": 90.0,
+      "touches_wall": true
+    }
+  ],
+  "warnings": [
+    "Normalized duplicate/retraced boundary segments; enclosed area unchanged."
+  ],
+  "model": {
+    "fridge_front": "local -Y edge (length edge)",
+    "fridge_default_depth": "length / 2",
+    "door_access_depth": 900.0000000000036,
+    "all_items_same_floor": true
+  },
+  "stages": [
+    {
+      "candidate_count": 230,
+      "nodes": 7,
+      "search_timed_out": false,
+      "elapsed_seconds": 0.607,
+      "stage": "wall_only",
+      "step": 100
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "errors": []
+  },
+  "wall_count": 6,
+  "wall_count_optimal": true
+}

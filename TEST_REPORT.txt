@@ -1,0 +1,20 @@
+test_area_impossible (test_solver.GeometryTests.test_area_impossible) ... ok
+test_bad_angle (test_solver.GeometryTests.test_bad_angle) ... ok
+test_bad_dimensions (test_solver.GeometryTests.test_bad_dimensions) ... ok
+test_bad_door (test_solver.GeometryTests.test_bad_door) ... ok
+test_bowtie_rejected (test_solver.GeometryTests.test_bowtie_rejected) ... ok
+test_concavity (test_solver.GeometryTests.test_concavity) ... ok
+test_edge_contact_allowed (test_solver.GeometryTests.test_edge_contact_allowed) ... ok
+test_feasible (test_solver.GeometryTests.test_feasible) ... ok
+test_fridge_front (test_solver.GeometryTests.test_fridge_front) ... ok
+test_interior_fallback (test_solver.GeometryTests.test_interior_fallback) ... ok
+test_inward_door (test_solver.GeometryTests.test_inward_door) ... ok
+test_overlap (test_solver.GeometryTests.test_overlap) ... ok
+test_retraced_boundary (test_solver.GeometryTests.test_retraced_boundary) ... ok
+test_saved_examples (test_solver.GeometryTests.test_saved_examples) ... ok
+test_unknown_not_false (test_solver.GeometryTests.test_unknown_not_false) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.065s
+
+OK
